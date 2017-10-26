@@ -1,0 +1,605 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.home
+  background: url(../img/home_bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .logo
+    font-family: "Airbag";
+    font-size: 48px;
+    color: #e8e8e8;
+    padding-top: 20px;
+    float: left;
+    a
+      color: #e8e8e8;
+      outline: none;
+
+  .top_nav
+    float: right;
+    margin-top: 39px;
+    ul
+      li
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 25px;
+        margin-right: 25px;
+        a
+          position: relative;
+          color: #fff;
+          display: block;
+          width: 100%;
+          height: 15px;
+          &::after
+            content: ""
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            width: 0%;
+            height: 2px;
+            background-color: #fff;
+            transition: width 0.5s;
+            animation-timing-function: ease-in-out;
+          &:hover
+            &::after
+              width: 50%;
+              left: 0%;
+          &::before
+            content: ""
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            width: 0%;
+            height: 2px;
+            background-color: #fff;
+            transition: width 0.5s;
+            animation-timing-function: ease-in-out;
+          &:hover
+            &::before
+              width: 50%;
+              right: 0%;
+
+  .out_btn
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    outline: none;
+    float: right;
+    margin-top: 34px;
+
+  .info
+    margin-top: 210px;
+    h1
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 43px;
+      color: #e8e8e8;
+      cursor: pointer;
+      transition: 1s;
+      max-width: 450px;
+      display: block;
+      margin: 0 auto;
+      text-shadow: 0.1em 0.1em 0.2em black;
+
+    p
+      margin-top: 33px;
+      margin-bottom: 35px;
+      font-family: "Open Sans";
+      font-size: 17px;
+      color: #e8e8e8;
+      line-height: 1.5;
+    #talk
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #e8e8e8;
+      border: 1px solid #e8e8e8;
+      padding: 15px 25px;
+      border-radius: 40px;
+      background-color: transparent;
+      outline: none;
+      transition: 0.6s;
+      &:hover
+        background-color: #8f8f9c;
+        transition: 0.6s;
+      &:active
+        border: 1px solid #66707c;
+        transition: 0s;
+    #scroll
+        background-color: transparent;
+        border: 1px solid #e8e8e8;
+        color: #e8e8e8;
+        padding: 1px 10px;
+        border-radius: 40px;
+        font-size: 50px;
+        outline: none;
+        margin: 145px auto 103px auto;
+        transition: 0.6s;
+        a
+          color: #e8e8e8;
+        &:hover
+          font-size: 60px;
+          transition: 0.6s;
+          padding: 1px 12px;
+          text-shadow: 0.1em 0.1em 0.2em black;
+          background-color: #8f8f9c;
+        &:active
+          border: 1px solid #66707c;
+          transition: 0s;
+
+
+
+
+
+
+
+.service
+  background-color: #f5f5f5;
+  h1
+    font-family: "Open Sans Extrabold";
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #29323c;
+    padding-top: 100px;
+  h5
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: #29323c;
+    margin-top: 15px;
+  h3
+    border-bottom: 2px solid #29323c;
+    width: 40px;
+    display: block;
+    margin: 16px auto;
+  .item
+    margin-top: 58px;
+    padding-bottom: 103px;
+    h2
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 16px;
+      color: #29323c;
+      margin-top: 40px;
+    p
+      font-family: "Open Sans Regular";
+      font-size: 14px;
+      color: #29323c;
+      margin-top: 27px;
+      line-height: 1.4;
+
+
+
+
+.work
+    h1
+      font-family: "Open Sans Extrabold";
+      font-size: 26px;
+      text-transform: uppercase;
+      color: #29323c;
+      padding-top: 100px;
+    h5
+      font-family: "Open Sans Regular";
+      font-size: 14px;
+      color: #29323c;
+      margin-top: 15px;
+    h3
+      border-bottom: 2px solid #29323c;
+      width: 40px;
+      display: block;
+      margin: 16px auto;
+    .icon
+      margin-top: 62px;
+      ul
+        li
+          list-style-type: none;
+          float: left;
+          width: 20%;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          &:hover .descr
+            opacity: 0.6;
+            top: 0;
+            transform: scale(1)
+          img
+            width: 100%;
+            display: block;
+          .descr
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(249, 41, 41);
+            opacity: 0;
+            transition: all .6s;
+            transform: scale(0);
+            p
+              color: #fff;
+              margin: 65px auto;
+              text-transform: uppercase;
+              border: 3px solid #921313;
+              width: 150px;
+              padding: 12px 0;
+              border-radius: 10px;
+              cursor: pointer;
+              &:hover
+                border: 3px solid #fff;
+
+
+
+
+.client
+  margin-top: 100px;
+  h1
+    font-family: "Open Sans Extrabold";
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #29323c;
+  h5
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: #29323c;
+    margin-top: 15px;
+  h3
+    border-bottom: 2px solid #29323c;
+    width: 40px;
+    display: block;
+    margin: 16px auto;
+  p
+    font-family: "Open Sans Regular";
+    font-size: 16px;
+    margin-top: 68px;
+    line-height: 1.4;
+    color: #29323c;
+    span
+      font-size: 14px;
+      color: #abaeb2;
+
+  /*          Слайдеp         */
+
+  .slider_show
+    max-width: 250px;
+    margin: 50px auto
+    .name
+      margin-top: 20px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 15px;
+    .position
+      font-family: "Montserrat Regular";
+      font-size: 13px;
+      margin-top: 5px;
+
+
+
+.team
+  background: url(../img/team_bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 100px;
+  h1
+    font-family: "Open Sans Extrabold";
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    padding-top: 100px;
+  h5
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: #f2f2f2;
+    margin-top: 16px;
+  h3
+    border-bottom: 2px solid #f2f2f2;
+    width: 40px;
+    display: block;
+    margin: 17px auto;
+
+  .team_item
+    margin: 84px auto 0 auto;
+    background-color: #c4c8cb;
+    height: 415px;
+    width: 270px;
+    .name
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 30px;
+    .position
+        font-family: "Montserrat Regular";
+        font-size: 14px;
+        margin-top: 10px;
+    i
+      color: #c4c8cb;
+      font-size: 20px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-top: 23px;
+      cursor: pointer;
+    .fa-twitter
+      padding: 4px 5px;
+      border: 1px solid #323334;
+      background-color: #323334;
+    .fa-linkedin
+      padding: 4px 5px;
+      border: 1px solid #323334;
+      background-color: #323334;
+    .fa-dribbble
+      font-size: 25px;
+      padding: 2px 3px;
+      border: 1px solid #323334;
+      background-color: #323334;
+    .fa-facebook
+      padding: 4px 8px;
+      font-size: 21px;
+      border: 1px solid #323334;
+      background-color: #323334;
+    .fa-envelope
+      color: #323334;
+      font-size: 30px;
+  button
+    padding: 15px 23px;
+    border-radius: 30px;
+    border: 2px solid #e8e8e8;
+    background-color: transparent;
+    color: #e8e8e8;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.6s;
+    margin-top: 94px;
+    outline: none;
+    &:hover
+        background-color: #8f8f9c;
+        transition: 0.6s;
+    &:active
+      border: 2px solid #66707c;
+      transition: 0s;
+  .marg
+    padding-top: 100px;
+
+
+.brands
+  background-color: #f5f5f5;
+  ul
+    padding-top: 42px;
+    padding-bottom: 42px;
+    li
+      display: inline-block;
+      margin: auto 4% auto 4%;
+      vertical-align: middle;
+
+
+.price
+  padding-top: 100px;
+  h1
+    font-family: "Open Sans Extrabold";
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #29323c;
+  h5
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: #29323c;
+    margin-top: 15px;
+  h3
+    border-bottom: 2px solid #29323c;
+    width: 40px;
+    display: block;
+    margin: 16px auto;
+  .pack
+    margin-top: 115px;
+    max-width: 40%;
+    border: 1px solid #eeeeee;
+    float: left;
+    .standard
+      border-bottom: 1px solid #eeeeee;
+      h2
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 20px;
+        color: #485563;
+        margin-top: 28px;
+      h1
+        font-family: Montserrat;
+        font-size: 45px;
+        color: #485563;
+        margin-top: 19px;
+      p
+        color: #29323c;
+        font-family: "Open Sans Light";
+        font-size: 14px;
+        margin-top: 6px;
+        margin-bottom: 33px;
+        padding: 0 149px 0 149px;
+
+    .info
+      font-family: "Open Sans Regular";
+      font-size: 14px;
+      line-height: 3;
+      margin-top: 83px;
+      color: #29323c;
+    button
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 13px;
+      color: #e8e8e8;
+      border: 1px solid #485563;
+      background-color: #485563;
+      padding: 15px 34px;
+      border-radius: 30px;
+      margin-top: 91px
+      margin-bottom: 35px;
+      transition: 0.7s;
+      outline: none;
+      &:hover
+        background-color: #e8e8e8;
+        color: #485563;
+        transition: 0.7s;
+      &:active
+        border: 2px solid #fff;
+        transition: 0.1s;
+  .pack_best
+    margin-top: 70px;
+    border-top: 5px solid #485563;
+    .standard_best
+      h2
+        margin-top: 69px;
+
+
+.contact
+  margin-top: 110px;
+  .col-md-6
+    padding: 0;
+  .map
+    img
+      padding-left: 30px;
+  .contacts
+    background: url(../img/footer_bg.png) no-repeat;
+    form
+      padding-top: 43px;
+      padding-bottom: 43px;
+      label
+        color: #f6f6f6;
+        font-family: "Montserrat Regular";
+        font-size: 14px;
+        padding-right: 67px;
+
+      #name
+        border: 1px solid #c5c1c0;
+        background-color: transparent;
+        width: 48%;
+        height: 44px;
+        border-radius: 3px;
+        padding-left: 10px;
+        color: #c5c1c0;
+        font-size: 18px;
+        outline: none;
+      #Email
+        border: 1px solid #c5c1c0;
+        background-color: transparent;
+        width: 48%;
+        height: 44px;
+        border-radius: 3px;
+        padding-left: 10px;
+        color: #c5c1c0;
+        font-size: 18px;
+        margin-top: 25px;
+        outline: none;
+      #Phone
+        border: 1px solid #c5c1c0;
+        background-color: transparent;
+        width: 48%;
+        height: 44px;
+        border-radius: 3px;
+        padding-left: 10px;
+        color: #c5c1c0;
+        font-size: 18px;
+        margin-top: 25px;
+        outline: none;
+      #Message
+          border: 1px solid #c5c1c0;
+          background-color: transparent;
+          width: 48%;
+          height: 145px;
+          border-radius: 3px;
+          padding-left: 10px;
+          color: #c5c1c0;
+          font-size: 18px;
+          margin-top: 25px;
+          outline: none;
+      button
+          border: 1px solid #c5c1c0;
+          background-color: transparent;
+          width: 120px;
+          height: 45px;
+          border-radius: 3px;
+          color: #f6f6f6;
+          margin: 25px auto auto 46%;
+          font-family: "Montserrat Regular";
+          font-size: 14px;
+          outline: none;
+          transition: 0.6s;
+          &:hover
+            background-color: #8f8f9c;
+            transition: 0.6s;
+          &:active
+            border: 1px solid #66707c;
+            transition: 0s;
+
+
+.footer
+  background-color: #f5f5f5;
+  padding-top: 52px;
+  padding-bottom: 50px;
+  h1, p
+    display: inline-block;
+    vertical-align: middle;
+  h1
+    color: #29323c;
+    font-family: "Airbag";
+    font-size: 48px;
+  p
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: #29323c;
+    padding-top: 10px;
+  .soc
+      p
+        margin-top: 3px;
+        margin-right: 20px;
+      i
+        color: #c4c8cb;
+        font-size: 20px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-top: 12px;
+        cursor: pointer;
+      .fa-twitter
+        padding: 4px 5px;
+        border: 1px solid #525961;
+        background-color: #525961;
+      .fa-linkedin
+        padding: 4px 5px;
+        border: 1px solid #525961;
+        background-color: #525961;
+      .fa-dribbble
+        font-size: 25px;
+        padding: 2px 3px;
+        border: 1px solid #525961;
+        background-color: #525961;
+      .fa-facebook
+        padding: 4px 8px;
+        font-size: 21px;
+        border: 1px solid #525961;
+        background-color: #525961;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    АДАПТИВ    */

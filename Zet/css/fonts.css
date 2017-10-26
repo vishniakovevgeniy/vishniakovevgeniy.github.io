@@ -1,0 +1,35 @@
+
+
+@font-family{
+	font-family: Airbag;
+	src: url(../fonts/Airbag-regular/Airbag-Regular.otf);
+}
+
+@font-family{
+	font-family: Montserrat Bold;
+	src: url(../fonts/Montserrat-Bold/Montserrat-Bold.otf);
+}
+
+@font-family{
+	font-family: Montserrat Regular;
+	src: url(../fonts/Montserrat-Regular/Montserrat-Regular.otf);
+	font-weight: Regular;
+}
+
+@font-family{
+	font-family: OpenSans Regular;
+	src: url(../fonts/OpenSans-Regular/OpenSans-Regular.ttf);
+	font-weight: Regular;
+}
+
+@font-family{
+	font-family: Open Sans Extrabold;
+	src: url(../fonts/Opensans-ExtraBold/OpenSans-ExtraBold.ttf);
+	font-weight: Extrabold;
+}
+
+@font-family{
+	font-family: Open Sans Light;
+	src: url(../fonts/OpensansLight/OpenSans-Light.ttf);
+	font-weight: Light;
+}
