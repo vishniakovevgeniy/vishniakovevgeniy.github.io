@@ -62,6 +62,11 @@
           right: 0%; }
   .home .out_btn, .home .menu {
     display: inline-block; }
+    .home .out_btn .menu, .home .menu .menu {
+      font-family: "Open Sans Regular";
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-right: 10px; }
   .home .active {
     display: none; }
   .home .out_btn {
