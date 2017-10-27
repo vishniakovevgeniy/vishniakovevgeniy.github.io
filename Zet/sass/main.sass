@@ -59,6 +59,10 @@
               width: 50%;
               right: 0%;
 
+  .out_btn, .menu
+    display: inline-block;
+  .active
+    display: none;
   .out_btn
     background-color: transparent;
     border: none;
@@ -451,14 +455,18 @@
 
 .contact
   margin-top: 110px;
+  .col-md-6
+    padding: 0;
   .map
-    background: url(../img/map.png) no-repeat;
-    max-width: 656px;
-    height: 508px;
+    img
+      width: 100%;
+      height: 509px;
+
 
   .contacts
     background: url(../img/footer_bg.png) no-repeat;
-    max-width: 660px;
+    width: 100%;
+    background-size: cover;
     form
       padding-top: 43px;
       padding-bottom: 43px;

@@ -31,3 +31,9 @@ $(document).ready(function(){
     auto: true
   });
 });
+
+$(function() {
+  $(".out_btn").click(function () {
+    $(".menu").addClass('active');
+  })
+});
