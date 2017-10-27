@@ -470,10 +470,17 @@
   margin-top: 110px; }
   .contact .col-md-6 {
     padding: 0; }
-  .contact .map img {
-    padding-left: 30px; }
+  .contact .map {
+    background: url(../img/Map.png) no-repeat;
+    max-width: 656px;
+    height: 508px;
+    display: block;
+    margin: 0 auto; }
   .contact .contacts {
-    background: url(../img/footer_bg.png) no-repeat; }
+    background: url(../img/footer_bg.png) no-repeat;
+    display: block;
+    margin: 0 auto;
+    max-width: 660px; }
     .contact .contacts form {
       padding-top: 43px;
       padding-bottom: 43px; }
